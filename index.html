@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lnag="ko">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>에코핸즈</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href- "/assets/favicon.ico"/>
+	<link rel="stylesheet" href="./src/nav.css" />
+	<link rel="stylesheet" href="./src/topnav.css" />
+	<link rel="stylesheet" href="./src/top.css" />
+	<link rel="stylesheet" href="./src/banner.css" />
+	<link rel="stylesheet" href="style.css" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+
+<body>
+
+	<div class="top">
+		<a href="#" class="top__link">
+			<span class="top__text"><!-- 로고나 다른 메뉴 들어갈 시 수정--></span>
+      </a>
+      <a href="#" class="top__link">
+        <span class="top__text">에코핸즈</span>
+      </a>
+      <a href="#" class="cart__link">
+        <i class="material-icons nav__icon">shopping_cart</i>
+      </a>
+    </div>
+
+    <header id="header" class="header">
+      <nav class="topnav">
+        <a href="#" class="topnav__link">
+          <span class="topnav__text">추천상품</span>
+        </a>
+        <a href="#" class="topnav__link">
+          <span class="topnav__text">신상품</span>
+        </a>
+        <a href="#" class="topnav__link">
+          <span class="topnav__text">친환경제품</span>
+        </a>
+        <a href="#" class="topnav__link">
+          <span class="topnav__text">이벤트</span>
+        </a>
+      </nav>
+
+      <!--모바일용 푸터 GNB(global navigation bar)-->
+      <nav class="nav">
+        <a href="/" class="nav__link">
+          <i class="material-icons nav__icon">home</i>
+          <span class="nav__text">홈</span>
+        </a>
+        <a href="/" class="nav__link">
+          <i class="material-icons nav__icon">favorite</i>
+          <span class="nav__text">찜</span>
+        </a>
+        <a href="/" class="nav__link">
+          <i class="material-icons nav__icon">reorder</i>
+          <span class="nav__text">카테고리</span>
+        </a>
+        <a href="/" class="nav__link">
+          <i class="material-icons nav__icon">search</i>
+          <span class="nav__text">검색</span>
+        </a>
+        <a href="/" class="nav__link">
+          <i class="material-icons nav__icon">account_circle</i>
+          <span class="nav__text">마이페이지</span>
+        </a>
+      </nav>
+    </header>
+    
+    <div id="content" class="content" data-page="main">
+      <!-- 메인 -->
+      <section id="main_visual">
+        <div id="banner">
+            <img src="img/banner1.jpg" style="max-width: 100%; height: auto;">
+        </div>
+
+        <!-- <fieldset class="ui-control" style="display: block;">
+          <nav class="indicator">
+            <span class="ui-paging-current">3</span>
+            "/17"
+          </nav>
+        </fieldset> -->
+      </section>
+
+      <!--추천상품-->
+      <section id="product_recommend">
+        <span>추천상품</span>
+        <a href="#">
+          <span>더보기</span>
+        </a>
+      </section>
+
+      <!--신상품-->
+      <section id="product_new">
+      </section>
+
+      <!--친환경제품-->
+      <section id="product_echo">
+      </section>
+
+      <!--이벤트-->
+      <section id="product_event">
+      </section>
+
+    </div>
+
+  </body>
+</html>

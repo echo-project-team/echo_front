@@ -1,0 +1,41 @@
+body {
+  margin: 0 0 55px 0;
+  position: fixed;
+  width: 100%;
+  
+}
+
+.top {
+  display: flex;
+  height: 60px;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items : center;
+  background-color: #ffffff;
+  overflow-x:auto;
+}
+
+.top__link {
+  min-width: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #444444;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.cart__link {
+  min-width: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #444444;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.1s ease-in-out;
+}
