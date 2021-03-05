@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lnag="ko">
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,24 +10,30 @@
 	<link rel="stylesheet" href="./src/topnav.css" />
 	<link rel="stylesheet" href="./src/top.css" />
 	<link rel="stylesheet" href="./src/banner.css" />
+  <link rel="stylesheet" href="./src/ui_title.css" />
 	<link rel="stylesheet" href="style.css" />
+
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 </head>
 
 <body>
 
 	<div class="top">
-		<a href="#" class="top__link">
-			<span class="top__text"><!-- 로고나 다른 메뉴 들어갈 시 수정--></span>
-      </a>
-      <a href="#" class="top__link">
-        <span class="top__text">에코핸즈</span>
-      </a>
-      <a href="#" class="cart__link">
-        <i class="material-icons nav__icon">shopping_cart</i>
-      </a>
+      <div class="topmain">
+        <a href="#" class="top__link">
+        <span class="top__text"><!-- 로고나 다른 메뉴 들어갈 시 수정--></span>
+        </a>
+        <a href="#" class="top__link">
+          <span class="top__text">에코핸즈</span>
+        </a>
+        <a href="#" class="cart__link">
+          <i class="material-icons nav__icon">shopping_cart</i>
+        </a>
+      </div>
+			
     </div>
 
+  
     <header id="header" class="header">
       <nav class="topnav">
         <a href="#" class="topnav__link">
@@ -73,7 +78,7 @@
     <div id="content" class="content" data-page="main">
       <!-- 메인 -->
       <section id="main_visual">
-        <div id="banner">
+        <div class="banner">
             <img src="img/banner1.jpg" style="max-width: 100%; height: auto;">
         </div>
 
@@ -87,22 +92,50 @@
 
       <!--추천상품-->
       <section id="product_recommend">
-        <span>추천상품</span>
-        <a href="#">
-          <span>더보기</span>
-        </a>
+        <div class="ui_title">
+          <a href="#" class="ui_title__txt">
+            <span>추천상품</span>
+          </a>
+          <a href="#" class="ui_title__txtright_more">
+              <span>더보기 ></span>
+            </a>
+        </div>
       </section>
 
       <!--신상품-->
       <section id="product_new">
+        <div class="ui_title">
+          <a href="#" class="ui_title__txt">
+            <span>신상품</span>
+          </a>
+          <a href="#" class="ui_title__txtright_more">
+              <span>더보기 ></span>
+            </a>
+        </div>
       </section>
 
       <!--친환경제품-->
       <section id="product_echo">
+        <div class="ui_title">
+          <a href="#" class="ui_title__txt">
+            <span>친환경제품</span>
+          </a>
+          <a href="#" class="ui_title__txtright_more">
+              <span>더보기 ></span>
+            </a>
+        </div>
       </section>
 
       <!--이벤트-->
       <section id="product_event">
+        <div class="ui_title">
+          <a href="#" class="ui_title__txt">
+            <span>이벤트</span>
+          </a>
+          <a href="#" class="ui_title__txtright_more">
+              <span>더보기 ></span>
+            </a>
+        </div>
       </section>
 
     </div>

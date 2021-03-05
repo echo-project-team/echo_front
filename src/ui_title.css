@@ -1,30 +1,29 @@
-
-
-.top {
+body {
+  margin: 0 0 55px 0;
   position: fixed;
   width: 100%;
-
+  
 }
 
-.topmain{
+.ui_title {
   display: flex;
-  overflow: hidden;
+  overflow: scroll;
+  padding: 40px 4px 4px;
+  margin: 0px 24px 24px;
   height: 60px;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items : center;
   background-color: #ffffff;
   overflow-x:auto;
-  
-  
 }
 
-.top__link {
+.ui_title__txt {
   min-width: 50px;
-  overflow: hidden;
+  overflow: scroll;
   white-space: nowrap;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   color: #444444;
   text-decoration: none;
@@ -32,12 +31,12 @@
   transition: background-color 0.1s ease-in-out;
 }
 
-.cart__link {
+.ui_title__txtright_more {
   min-width: 50px;
-  overflow: hidden;
+  overflow: scroll;
   white-space: nowrap;
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   color: #444444;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
