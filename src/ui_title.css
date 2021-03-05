@@ -1,16 +1,11 @@
-body {
-  margin: 0 0 55px 0;
-  position: fixed;
-  width: 100%;
-  
-}
+
 
 .ui_title {
   display: flex;
   overflow: scroll;
-  padding: 40px 4px 4px;
-  margin: 0px 24px 24px;
-  height: 60px;
+  padding: 0px 4px 4px;
+  margin: 20px 24px 0px;
+  height: 40px;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items : center;

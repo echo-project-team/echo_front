@@ -1,0 +1,23 @@
+.product_in_main {
+  overflow: auto;
+  padding: 0px 4px 4px;
+  margin: 10px 24px 0px;
+
+  
+}
+
+.product_in_main_img {
+
+  width: 130px; 
+  height: auto;
+  padding: 2px 2px 2px 2px;
+  position: relative;
+  border: 0.5px solid gray;
+  display: inline-block;
+  margin-inline-end: 10px;
+  margin-inline-start: 10px;
+
+
+
+  
+}
