@@ -2,7 +2,7 @@
 
 .ui_title {
   display: flex;
-  overflow: scroll;
+  /* overflow: scroll; */
   padding: 0px 4px 4px;
   margin: 20px 24px 0px;
   height: 40px;
@@ -15,7 +15,7 @@
 
 .ui_title__txt {
   min-width: 50px;
-  overflow: scroll;
+  /* overflow: scroll; */
   white-space: nowrap;
   font-family: sans-serif;
   font-size: 16px;
@@ -28,7 +28,7 @@
 
 .ui_title__txtright_more {
   min-width: 50px;
-  overflow: scroll;
+  /* overflow: scroll; */
   white-space: nowrap;
   font-family: sans-serif;
   font-size: 14px;

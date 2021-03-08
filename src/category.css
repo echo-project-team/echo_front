@@ -1,0 +1,26 @@
+.category {
+  overflow: auto;
+  margin-top: 70px;
+  
+  
+}
+.tab_group {
+  
+  background: #f5f5f5;
+  width:100%;
+  
+
+
+}
+.tab_group__tab{
+  background: #444444;
+  border-color: #444444;
+  border-width: 1px;
+  color: #fff;
+  width: 50%;
+  
+  font-weight: normal;
+    text-decoration: none;
+  
+
+}

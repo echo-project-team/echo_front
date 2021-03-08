@@ -3,6 +3,11 @@
 .top {
   position: fixed;
   width: 100%;
+  border-bottom-width: 0.5px;
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+  border-bottom-style: solid;
+  
+  /* 로고, 장바구니 전체 부분 */
 
 }
 
