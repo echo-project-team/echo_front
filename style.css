@@ -5,3 +5,73 @@ body {
   position: relative;
   
 }
+
+/* 세부카테고리 들어갔을 때 상단 부분 <추천상품 */
+.top_ui_category{
+  margin-top: 80px;
+  margin-left: 20px;
+  width: inherit;
+  height: auto; 
+  font-weight:bold;
+  font-size: 15px;
+
+  
+}
+
+.top_ui_category_text{
+  font-family: sans-serif;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  color: #444444;
+}
+
+.ui_product_group{
+  margin-left: 20px;
+  margin-top: 5px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.ui_product_group_img{
+  width: 150px;
+  height: 150px;
+  border: 0.5px solid #d9d9d9;
+}
+
+.ui_product_group_text{
+  font-family: sans-serif;
+  text-decoration: none;
+  margin-left:20px;
+  margin-top: 5px;
+  
+}
+
+.ui_product_group_text_seller{
+  color: #444444;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.ui_product_group_text_pname{
+  color: #444444;
+  font-size: 14px;
+  font-weight:bold;
+  margin-top: 3px;
+}
+
+.ui_product_group_text_price{
+  color: #444444;
+  font-size: 14px;
+  font-weight:bold;
+  margin-top: 3px;
+
+  
+}
+
+.ui_product_group_text_review{
+  color: #444444;
+  font-size: 11px;
+  margin-top: 3px;
+
+}
+
