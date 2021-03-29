@@ -1,0 +1,100 @@
+.content{
+  margin-top: 61px;
+  padding:10px;
+}
+
+.my_info{
+  display: flex;
+  align-items: center;     /* center items horizontally, in this case */
+ /* justify-content: center;*/
+  
+}
+
+.image-area{
+    width: 100px;
+    height: 100px;
+    border-radius: 70%;
+    overflow: hidden;
+    object-fit: cover;
+    margin-right: 30px;
+    
+}
+.text-area{
+  
+  
+
+}
+
+.text-area-name{
+  margin: 5px 0 5px;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #444444;
+}
+.text-area-level{
+  margin: 5px 0 5px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: green;
+}
+.text-area-point{
+  margin: 5px 0 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #444444;
+}
+
+.my_menu{
+  margin-top: 10px;
+  display:block;
+  
+
+}
+
+.my_menu nav b{
+  width: 100%;
+  background: #faf9f9;
+  margin-top:8px;
+  border-top:1px solid #efe8e6;
+  padding: 11px 16px 11px 16px;
+  color: #333;
+  display: block;
+
+
+}
+
+.my_menu nav a{
+  width: 100%;
+  text-decoration: none;
+  padding: 5px 0px 5px 24px;
+  color : #666;
+  display: block;
+  font-size:13px;
+
+
+}
+.my_menu nav a:hover {
+  background-color: #eeeeee;
+}
+
+.my_menu_title{
+  width: 100%;
+  text-align:center;
+  display: block;
+  background: green;
+  color:#fff;
+  font-size:13px;
+  padding: 9px 16px;
+
+
+}
+
+.my_menu_detail{
+  display:flex;
+  flex-direction: column;
+}
+
+
+
+

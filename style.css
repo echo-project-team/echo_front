@@ -6,6 +6,7 @@ body {
   
 }
 
+/* 여기서부턴 추천상품 눌렀을 때 화면 css*/
 /* 세부카테고리 들어갔을 때 상단 부분 <추천상품 */
 .top_ui_category{
   margin-top: 80px;
@@ -18,21 +19,28 @@ body {
   
 }
 
-.top_ui_category_text{
+.top_ui_category_text{ 
   font-family: sans-serif;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
   color: #444444;
 }
 
+/* 제품리스트 부분*/
+.product_lists{
+  display: inline-flex;
+  flex-flow: row wrap;
+}
+
 .ui_product_group{
   margin-left: 20px;
-  margin-top: 5px;
   font-family: sans-serif;
   text-decoration: none;
+
 }
 
 .ui_product_group_img{
+  margin-top: 10px;
   width: 150px;
   height: 150px;
   border: 0.5px solid #d9d9d9;
@@ -41,7 +49,6 @@ body {
 .ui_product_group_text{
   font-family: sans-serif;
   text-decoration: none;
-  margin-left:20px;
   margin-top: 5px;
   
 }
