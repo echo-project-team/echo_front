@@ -28,8 +28,10 @@ body {
 
 /* 제품리스트 부분*/
 .product_lists{
-  display: inline-flex;
-  flex-flow: row wrap;
+    display:flex;
+  flex-wrap:wrap;
+  /* overflow-y:scroll; */
+  justify-content: space-around;
 }
 
 .ui_product_group{

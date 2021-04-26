@@ -30,6 +30,7 @@
 
   width: 50%;
   font-size: 12px;
+  font-family: sans-serif;
   
 
   
@@ -40,11 +41,14 @@
 }
 
 .category-list{
-  display: inline-flex;
+  margin-top: 10px;
   margin-inline-end:10px;
   margin-inline-start: 10px;
   max-width: 100%;
-  
+  display:flex;
+  flex-wrap:wrap;
+  /* overflow-y:scroll; */
+  justify-content: space-around;
   
 }
 
@@ -67,6 +71,9 @@
     
 }
 
+.category-img:hover{
+  opacity: 0.8;
+}
 .category-text{
   width: 100px;
   height: auto; 
