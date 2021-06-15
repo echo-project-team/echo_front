@@ -26,3 +26,13 @@ function showSlides(n) {
             dots[slideIndex-1].className += " active";
             captionText.innerHTML = dots[slideIndex-1].alt;
           }
+
+/* Open */
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+/* Close */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}

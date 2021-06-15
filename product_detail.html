@@ -12,8 +12,9 @@
 	<link rel="stylesheet" href="./src/banner.css" />
   <link rel="stylesheet" href="./src/ui_title.css" />
   <link rel="stylesheet" href="./src/detail_product.css" />
+  <link rel="stylesheet" href="./src/buyScroll.css" />
   <link rel="stylesheet" href="./src/img.css" />
-    <link rel="stylesheet" href="./src/.css" />
+  <link rel="stylesheet" href="./src/.css" />
 	<link rel="stylesheet" href="style.css" />
   <script src="script.js"></script>
   
@@ -36,7 +37,7 @@
         </a>
       </div>
 			
-    </div>
+  </div>
 
           <!--모바일용 푸터 GNB(global navigation bar)-->
       <nav class="nav">
@@ -49,7 +50,7 @@
           <i class="material-icons nav__icon" style="color:red">favorite</i>
           <span class="nav__text">찜</span>
         </a>
-        <a href="/" class="nav__link__buy">
+        <a href="avascript:void(0)" onclick="openNav(); return false;" class="nav__link__buy">
           <!-- <i class="material-icons nav__icon">reorder</i> -->
           <span class="nav__text__buy">구매하기</span>
         </a>
@@ -62,6 +63,23 @@
           <span class="nav__text">판매자문의</span>
         </a>
       </nav>
+    
+    <--! buy scroll menu -->
+      <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay bavigation-->
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <div class="buy-category">
+
+            <a href="#">장바구니</a>
+            <a href="/shopping_bag.html">구매하기</a>
+          </div>
+        </div>
+
+      </div>
     </header>
 
     <!-- <section id="main_visual">
@@ -69,7 +87,7 @@
             <img src="img/banner1.jpg" style="max-width: 100%; height: auto;">
         </div> --> 
 
-      <div class="container">
+    <div class="container">
           
           <div class="Slides">
             <div class="numbertext">1 / 6</div>
@@ -136,7 +154,7 @@
               <img class="demo cursor" src="img/banner1.jpg" style="width:100%" onclick="currentSlide(6)">
             </div>
           </div>
-        </div>
+      </div>
 
       <div class="info_product">
         <a href="#" class="info_product_seller">[판매자 이름 또는 상호] ></a>
@@ -151,7 +169,6 @@
         
 
       </div>
-
 
 
 
