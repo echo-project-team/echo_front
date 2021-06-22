@@ -108,26 +108,102 @@ th {
   border-radius: 4px;
 }
 
-.cartCard .txt-group .bold {
+.cartCard txt-group .bold {
   line-height: normal;
 }
 
-.cartCard .txt-group .bold {
+.cartCard td, .paymentCard td {
+  padding-top: 8px;
+}
+
+.cartCard txt-group .bold, .paymentCard .txt-group .bold {
   font-weight: bold;
   color: #333;
-  display: -webkit-box;
   font-size: 14px;
   overflow: hidden;
   height: auto;
   max-height: 42px;
+  text-overflow:ellipsis;
 }
 
-body, div, span, label, thead, tr, th, td {
+.cartCard .area-txt .light, .paymentCard .area-txt .light {
+  color: #666;
+}
+
+.cartCard .area-txt {
+  padding-left: 4px;
+}
+
+.cartCard .area-txt, .paymentCard .area-txt {
+  vertical-align: middle;
+  position: relative;
+}
+
+.cartCard .txt-group .light, .paymentCard .txt-group .light{
+  display: block;
+  color: #999;
+  font-size: 12px;
+}
+
+.cartCard th.cart-card-head .txt-group {
+  margin-left: 0;
+}
+
+.cartCard .txt-group, .paymentCard .txt-group {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 85%;
+}
+
+.cartCard .area-img .img-bg {
+  width: 72px;
+  height:72px;
+}
+
+
+.cartCard .area-img .img-bg, .cartCard .area-img .artist_card__img, .paymentCard .area-img .img-bg, .paymentCard .area-img .artist_card__img {
+  display: inline-block;
+}
+
+body, div, span, label, thead, tr, th, td, bp, bold, em, a {
   margin: 0;
   border: 0;
+  font: inherit;
   vertical-align: baseline;
 }
 
 div {
   display: block;
+}
+
+label {
+  cursor: pointer;
+}
+
+.bp[type=checkbox]:before{
+  display: inline-block;
+}
+
+.inner-w800 {
+  margin: 0 auto;
+  position: relative;
+}
+
+tbody {
+  display:table-row-group;
+}
+
+td {
+  display:table-cell;
+  vertical-align: inherit;
+}
+
+.img-bg, .artist_card__img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+a {
+  text-decoration: none;
 }
