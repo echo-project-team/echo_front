@@ -1,0 +1,353 @@
+* {
+  color:inherit;
+  box-sizing: border-box;
+}
+.content {
+
+  overflow: auto;
+  margin-top: 61px;
+
+}
+.scroll-detector-check-all .check-control--mobile-top{
+  position: static;
+  border-top: #d9d9d9 1px solid;
+  border-bottom: none;
+
+}
+
+/* .scroll-detector-check-all{
+  padding: 21px 18px;
+} */
+
+.check-control--mobile-top {
+  margin-top: initial;
+  background-color: #fff;
+  padding: 12px;
+  padding-bottom: 12px;
+  vertical-align: middle;
+  line-height: 32px;
+  top: 0;
+  z-index: 110;
+  width: 100%;
+  justify-content: space-between;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 60px;
+}
+
+.check-control--mobile-top button.right {
+  margin-left: initial;
+  float: right;
+}
+
+.ui_btn--mini {
+  font-size: 12px;
+  padding: 5px 12px;
+  line-height: 20px;
+
+  box-shadow: 0 1px 3px 0 hsl(0deg 0% 86% / 30%);
+  font-weight: 400;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 2px;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  vertical-align: middle;
+  transition: border-color .2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  box-sizing: border-box;
+
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+colgroup {
+  display: table-column-group;
+}
+
+thead {
+  display: table-header-group;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+th {
+  display: table-cell;
+}
+
+.cartCard th.cart-card-head {
+  background: #fff;
+  text-align: left;
+  padding:0;
+
+}
+
+.cartCard th.cart-card-head input.bp {
+  margin-left: 10px;
+}
+
+.cartCard .list-item td, .paymentCard .list-item td {
+  border-bottom: 0 none;
+}
+
+.cartCard input.bp{
+  margin: 21px 8px 21px 20px;
+}
+
+.cartCard th.cart-card-head div {
+  background: #f5f5f5;
+  margin: 10px 10px 8px 10px;
+  border-radius: 4px;
+}
+
+.cartCard txt-group .bold {
+  line-height: normal;
+}
+
+.cartCard td, .paymentCard td {
+  vertical-align: top;
+  padding-top: 8px;
+  border-bottom:1px solid #eaeaea;
+}
+
+.cartCard txt-group .bold, .paymentCard .txt-group .bold {
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+  overflow: hidden;
+  height: auto;
+  max-height: 42px;
+  text-overflow:ellipsis;
+}
+
+.cartCard .area-txt .light, .paymentCard .area-txt .light {
+  color: #666;
+}
+
+.cartCard .area-txt {
+  padding-left: 4px;
+}
+
+.cartCard .area-txt, .paymentCard .area-txt {
+  vertical-align: middle;
+  position: relative;
+}
+
+.cartCard .txt-group .light, .paymentCard .txt-group .light{
+  display: block;
+  color: #999;
+  font-size: 12px;
+}
+
+.cartCard th.cart-card-head .txt-group {
+  margin-left: 0;
+}
+
+.cartCard .txt-group, .paymentCard .txt-group {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 85%;
+}
+
+.cartCard .area-img .img-bg {
+  width: 72px;
+  height:72px;
+}
+
+
+.cartCard .area-img .img-bg, .cartCard .area-img .artist_card__img, .paymentCard .area-img .img-bg, .paymentCard .area-img .artist_card__img {
+  display: inline-block;
+}
+
+body, div, span, label, thead, tr, th, td, bp, bold, em, a, ul {
+  margin: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+div {
+  display: block;
+}
+
+label {
+  cursor: pointer;
+}
+
+.bp[type=checkbox]:before{
+  display: inline-block;
+}
+
+.inner-w800 {
+  margin: 0 auto;
+  position: relative;
+}
+
+tbody {
+  display:table-row-group;
+}
+
+td {
+  display:table-cell;
+  vertical-align: inherit;
+}
+
+.cartCard td.flexible {
+  padding: 0 20px 14px 46px;
+}
+
+/* .cartCard td.flexible, .paymentCard td.flexible {
+  padding: 16px 12px 16px 49px;
+} */
+
+.img-bg, .artist_card__img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start:0px;
+  margin-inline-end: 40px;
+  padding-inline-start:0px;
+}
+
+.cartCard .list-options {
+  margin-bottom:18px;
+}
+
+.cartCard td.flexible .table-layout, .paymentCard td.flexible .table-layout{
+  display: table;
+  width: 100%;
+}
+
+.cartCard td.flexible .table-layout>.split:first-child, .paymentCard td.flexible .table-layout>.split:first-child {
+  width:75%;
+}
+
+.cartCard td.flexible .table-layout>.split, .paymentCard td.flexible .table-layout>.split {
+  vertical-align: top;
+}
+
+.cartCard td.flexible .table-layout>.split, .paymentCard td.flexible .table-layout>.split {
+  display: table-cell;
+}
+
+.cartCard .list-options .option-txt, .paymentCard .list-options .option-txt{
+  font-size: 12px;
+  color: #666;
+  width: 75%;
+  min-height: 18px;
+}
+
+.input-number {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  height: 24px;
+  line-height: 24px;
+}
+
+.input-number:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.input-number button{
+  display: inline-block;
+  border: 1px solid #ccc;
+  width: 24px;
+  transition: border 0.3s ease;
+}
+
+
+.input-number button[data-type=decrement]{
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.input-number>* {
+  display: block;
+  float: left;
+  background: #fff;
+  color: #333;
+  height: 24px;
+  font-size: inherit;
+}
+
+.input-number input[type=number]{
+  font-size: 10px;
+  font-weight: bold;
+  width: 100%;
+  line-height: 24px;
+  overflow: hidden;
+  outline: none;
+  border: 0 none;
+  margin: 0 !important;
+  padding: 0;
+  border-radius: 0;
+}
+
+input[type='number'] {
+  background: #fff;
+  width: 40px;
+}
+
+.input-number .input-area {
+  width: 36px;
+  border: 1px solid #ccc;
+  border-left: 0 none;
+  border-right: 0 none;
+  height: 100%;
+  overflow: hidden;
+}
+
+.input-number button[data-type=increment]{
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.cartCard td.flexible .table-layout .prd-count, .paymentCard td.flexible .table-layout .prd-count {
+  text-align: center;
+  display: inline-block;
+  height: 100%;
+}
+
+button {
+
+}
+
+.cost-text {
+  font-size: 14px;
+  color: #333333;
+}
+
+.split-right{
+  float: right;
+}

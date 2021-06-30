@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>에코핸즈</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href- "/assets/favicon.ico"/>
+	<link rel="stylesheet" href="./src/shoppingBag.css" />
+	<link rel="stylesheet" href="./src/top.css" />
+
+  
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+
+<body>
+<!-- page 자체 body 시작 -->
+	<div class="top">
+      <div class="topmain">
+        <a href="#" class="top__link">
+        <span class="top__text"><!-- 로고나 다른 메뉴 들어갈 시 수정--></span>
+        </a>
+        <a href="index.html" class="top__link">
+          <span class="top__text">에코핸즈</span>
+        </a>
+        <a href="#" class="cart__link">
+          <i class="material-icons nav__icon">shopping_cart</i>
+        </a>
+      </div>
+			
+  </div>
+
+  <div id="content" class="content">
+
+    
+
+      <form class="cart-form">
+        <!-- 아이디어스에서는 data-ui sticky임 -->
+        <div class="scroll-detector-check-all">
+          <!-- 아이디어스에서는 모바일만 보여지는듯함-->
+          <div class="check-control--mobile-top">
+            <!--전체선택 체크박스와 라벨 부분-->
+            <label>
+              <input class="bp" type="checkbox" data-ui="check-all" checked>
+              </input>
+              <span>
+                전체선택(
+                <em data-ui="check-all-count">1</em>
+                /
+                <em class="check-count-total">1</em>
+                )
+              </span>
+            </label>
+            
+            <!--선택삭제 버튼 부분-->
+            <button class="ui_btn--mini right" type="button">선택삭제</button>
+          <!-- check-control--mobile-top -->
+          </div>
+        <!-- scroll-detector-check-all -->
+        </div>
+
+        <div id="inner-w800">
+          <table class="cartCard" data-ui="cart-card" data-ui-type="cart">
+            <!-- <caption class="hidden">마켓 이름</caption> --><!--왜 hidden?-->
+            <colgroup>
+              <col width="125px">
+              <col width="*">
+            </colgroup>
+
+            <thead>
+              <tr>
+                <th class="cart-card-head" colspan="2">
+                  <div>
+                    <!--hidden 용도 발견시 그 때 추가-->
+                    <label>
+                      <input class="bp" data-ui="check-linked" type="checkbox" checked>
+                      </input>  
+                      <div class="txt-group">                    
+                          <b class="bold">Market 이름</b>
+                      </div>
+                    </label>
+                  </div>
+                </th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr class="list-item">
+                <td class="area-img" width="125">
+                  <input class="bp" style="float: left;" data-ui"check-linked" type="checkbox" checked></input>
+                  <div class="img-bg" style="float: left;">
+                    <img src="\img\product.jpg" height="72px" width="72px">
+                  </div>
+                </td>
+                <td class="area-txt">
+                  <div class="txt-group">
+                    <a class="bold" href="#">상품명</a>
+                    <em class="light">간단설명</em>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td colspan="2" class="flexible">
+                  <ul class="list-options">
+                    <li data-option-status="1" data-state>
+                      <div class="table-layout">
+                        <div class="split">
+                          <span class="option-txt"></span>
+                          <div class="input-number" data-ui="input-number" data-state>
+                            <button type="button" data-type="decrement">-</button>
+                            <div class="input-area">
+                              <input class="prd-count" type="number" value="1" min="1" max="999" autocomplete="off" data-status="1" data-status-value="1" data-action="change_count">
+                            </div>
+                            <button type="button" data-type="increment">+</button>
+                          </div>
+                        </div>
+
+                        <div class="split-right">
+                          <strong>
+                            <em class="cost-text">10,000원</em>
+                          </strong>                        
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+              </tr>
+            </tbody>
+          <!-- cartCard div -->
+          </table>
+
+        <!-- inner-w800 div-->
+        </div>
+
+
+
+      <!-- cart-form div-->
+      </form>
+
+
+    <!-- content div-->
+  </div>
+
+  
+   
+<!-- page 자체 body 끝 -->
+  </body>
+
+  
+  
+</html>
