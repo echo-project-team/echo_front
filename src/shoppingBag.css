@@ -57,7 +57,7 @@ body, div, span, label, em, a, ul, table {
 }
 
 .CartProductListItem__optionInfo {
-  padding: 0 20px 14px 46px;
+  padding: 0 20px 14px 30px;
 }
 
 .CartOptionList {
@@ -197,4 +197,127 @@ body, div, span, label, em, a, ul, table {
   position: absolute;
   bottom: 4px;
   right: 8px;
+  font-size: 14px;
+}
+
+.CartStoreItem__section {
+  padding: 18px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #d9d9d9;
+  margin-top:-1px;
+}
+
+.CartStoreItem__label {
+  display: inline-block;
+  vertical-align: middle;
+  color: #666666;
+  font-size:13px;
+}
+
+.CartStoreItem__price {
+  color: #333333;
+  font-size:14px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.ShippingPrice {
+  text-align: right;
+}
+
+.ShippingPrice__price {
+  color: #333333;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.ShippingPrice__free {
+  margin-top: 2px;
+  font-size: 12px;
+  font-weight: normal;
+  color: #999999;
+  line-height: 1.5;
+}
+
+.CartList__sticky {
+  background-color: rgba(255,255,255,0.9);
+}
+
+.CartCheckout {
+  background-color: #ffffff;
+}
+
+.CartCheckoutMobile {
+  padding: 16px 16px 0 16px;
+}
+
+.CartCheckoutMobile__detail {
+  padding: 18px 0 8px 0;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.CartCheckoutMobile__detail__group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 6px;
+}
+
+.CartCheckoutMobile__detail__label {
+  display: inline-block;
+  flex: 1;
+  font-size: 12px;
+  color: #999999;
+}
+
+.CartCheckoutMobile__result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+}
+
+.CartCheckoutMobile__result__label {
+  display: inline-block;
+  flex: 1;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.CartCheckoutMobile__result__price {
+  display: inline-block;
+  flex: 1;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  color: green;
+}
+
+.CartBuyNowPage__bottom {
+  padding: 16px;
+}
+
+.CartBuyNowPage__orderButton {
+  width: 100%;
+  background: green;
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 46px;
+  padding: 0 24px;
+  display: inline-block;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 0 rgb(220, 220, 220 / 30%);
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  transition: border-color 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  vertical-align: middle;
 }

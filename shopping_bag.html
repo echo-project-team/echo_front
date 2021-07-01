@@ -39,7 +39,7 @@
             <div class="CartStoreItem__header">
               <label>
                 <input type="checkbox" checked class="UncheckableCheckbox"/>
-                <span class="CartStoreItem__title">스토어 명</span>
+                <span class="CartStoreItem__title">아기돼지삼형제네집</span>
               </label>
             <!-- CartStoreItem_header div -->  
             </div>
@@ -50,7 +50,7 @@
                     <div class="CartProductListItem__productInfo">
                       <input type="checkbox" checked/>
                       <img src="\img\product2.jpg" class="CartProductListItem__productImg" height="72px" width="72px"/>
-                      <a href="#" class="CartProductListItem__productName">제품명이 여기 들어갈거에요 누르면 해당 상품 링크 연결됩니다</a>
+                      <a href="#" class="CartProductListItem__productName">맛있는 한돈 삼겹살</a>
                     </div>
 
                     <div class="CartProductListItem__optionInfo">
@@ -58,7 +58,7 @@
                         <div class="CartOptionListItem">
 
                           <div class="CartOptionListItem__splitLeft">
-                            <em class="CartOptionListItem__optionText">  • 옵션 : 화이트 색상 </em>
+                            <em class="CartOptionListItem__optionText">  • 옵션 : 600g </em>
                             <div class="CartOptionListItem__counter">
                               <label for="numberCount" class="NumberCounter">
                                 <button type="button" data-type="decrement" class="NumberCounter__button">-</button>
@@ -74,7 +74,7 @@
                                 <i class="material-icons">close</i>
                               </button>
                             </div>
-                            <em class="CartOptionListItem__totalPrice">100,000원</em>
+                            <em class="CartOptionListItem__totalPrice">10,000원</em>
                           </div>
                           </div>
                           <div>
@@ -92,9 +92,66 @@
               </ul>
             <!-- CartStoreItem__ItemList section -->
             </section>
+
+            <section class="CartStoreItem__section">
+              <div class="CartStoreItem__label">상품 가격</div>
+              <em class="CartStoreItem__price">10,000원</em>
+            </section>
+
+            <section class="CartStoreItem__section">
+              <div class="CartStoreItem__label">배송비</div>
+              <div class="CartStoreItem__price">
+                <div class="ShippingPrice">
+                  <em class="ShippingPrice__price">3,000원</em>
+                  <div class="ShippingPrice__free">30,000원 이상 무료배송</div>
+                </div>
+              </div>
+            </section>
           <!-- CartStoreItem div -->
           </div>
         <!-- CartStoreList div -->
+        </div>
+
+        <div class="CartList__sticky" sticky-side="bottom" style="position: static; top: auto; bottom: auto; left: auto; width: auto; z-index: 1;">
+          <div class="CartCheckout">
+            <div class="CartCheckoutMobile">
+              <div class="CartCheckoutMobile__detail">
+                <div class="CartCheckoutMobile__detail__group">
+                  <div class="CartCheckoutMobile__detail__label">
+                    <span>상품 금액</span>
+                  </div>
+                  <div class="CartCheckoutMobile__detail__price">
+                    <span>10,000</span>
+                    <span class="CartCheckoutMobile__priceUnit">원</span>
+                  </div>
+                </div>
+
+                <div class="CartCheckoutMobile__detail__group">
+                  <div class="CartCheckoutMobile__detail__label">
+                    <span>배송비</span>
+                  </div>
+                  <div class="CartCheckoutMobile__detail__price">
+                    <span>3,000</span>
+                    <span class="CartCheckoutMobile__priceUnit">원</span>
+                  </div>
+                </div>
+              </div>
+              <div class="CartCheckoutMobile__result">
+                <div class="CartCheckoutMobile__result__label">
+                  <span>결제 예정금액</span>
+                </div>
+                <div class="CartCheckoutMobile__result__price">
+                  <span>13,000</span>
+                  <span class="CartCheckoutMobile__priceUnit">원</span>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="CartBuyNowPage__bottom">
+            <button class="CartBuyNowPage__orderButton">주문하기</button>
+          </div> 
         </div>
       <!-- CartList div -->
       </div>

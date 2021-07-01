@@ -20,13 +20,14 @@
   display:flex;
   flex-wrap:wrap;
   /* overflow-y:scroll; */
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .ui_grid_item {
+  text-align:center;
   /* overflow: auto; */
   margin-top: 10px;
-  width: 140px; 
+  width: 150px; 
   height: auto;
   /* padding: 2px 2px 2px 2px; */
   position: static;
@@ -57,7 +58,7 @@
 
 .ui_card_img img{
   display: block;
-  width:140px;
+  width:150px;
   height: auto;
   object-fit:cover;
   /* border: 1px solid #d9d9d9; */
@@ -90,6 +91,7 @@
 
 .ui_card_title{
   text-decoration: none;
+  font-size: 14px;
   color: #333333;
   margin: 2px 4px 2px 4px;
 
